@@ -1,12 +1,12 @@
 
-CLOCK SOURCES:
+# CLOCK SOURCES:
 1)Crystal Oscillator(external MCU)(HSE High speed external)
 2)RC oscillator (Internal MCU)(HSIHigh speed internal) 16Mghz
 3)PLL Phase Locked Loop(Internal)
 
 
-On RESET RC oscillator is selected.
-To switch the clock to Crystal Oscillator:
+# On RESET RC oscillator is selected.
+# STEPS To switch the clock to Crystal Oscillator:
 	1) RCC clock control register (RCC_CR)
 	   HSE ON=> it is on 16th bit
 	2) Wait till HSE(high speed external =crystal oscillator) becomes stable
