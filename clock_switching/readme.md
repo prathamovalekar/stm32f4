@@ -1,10 +1,10 @@
 
-# CLOCK SOURCES:
-1)Crystal Oscillator(external MCU)(HSE High speed external)
+# STM32F407VG Discovery Board CLOCK SOURCES:
+1) Crystal Oscillator(external MCU)(HSE High speed external)
 
-2)RC oscillator (Internal MCU)(HSIHigh speed internal) 16 Mghz
+2) RC oscillator (Internal MCU)(HSIHigh speed internal) 16 Mghz
 
-3)PLL Phase Locked Loop(Internal)
+3) PLL Phase Locked Loop(Internal)
 
 
 # On RESET RC oscillator is selected.
